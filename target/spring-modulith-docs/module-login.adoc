@@ -1,0 +1,11 @@
+[%autowidth.stretch, cols="h,a"]
+|===
+|Base package
+|`com.dzone.demo.userauthentication.login`
+|Spring components
+|_Services_
+
+* `c.d.d.u.l.LoginService`
+|Aggregate roots
+|* `c.d.d.u.l.LoginEntity`
+|===

@@ -1,0 +1,23 @@
+@startuml
+set separator none
+title UserauthenticationApplication
+
+top to bottom direction
+
+!include <C4/C4>
+!include <C4/C4_Context>
+!include <C4/C4_Component>
+
+Container_Boundary("UserauthenticationApplication.UserauthenticationApplication_boundary", "UserauthenticationApplication", $tags="") {
+  Component(UserauthenticationApplication.UserauthenticationApplication.Common, "Common", $techn="Module", $descr="", $tags="", $link="")
+  Component(UserauthenticationApplication.UserauthenticationApplication.Login, "Login", $techn="Module", $descr="", $tags="", $link="")
+  Component(UserauthenticationApplication.UserauthenticationApplication.Userregistration, "Userregistration", $techn="Module", $descr="", $tags="", $link="")
+  Component(UserauthenticationApplication.UserauthenticationApplication.Notification, "Notification", $techn="Module", $descr="", $tags="", $link="")
+}
+
+Rel(UserauthenticationApplication.UserauthenticationApplication.Userregistration, UserauthenticationApplication.UserauthenticationApplication.Common, "uses", $techn="", $tags="", $link="")
+Rel(UserauthenticationApplication.UserauthenticationApplication.Notification, UserauthenticationApplication.UserauthenticationApplication.Common, "listens to", $techn="", $tags="", $link="")
+Rel(UserauthenticationApplication.UserauthenticationApplication.Userregistration, UserauthenticationApplication.UserauthenticationApplication.Login, "uses", $techn="", $tags="", $link="")
+
+SHOW_LEGEND(true)
+@enduml

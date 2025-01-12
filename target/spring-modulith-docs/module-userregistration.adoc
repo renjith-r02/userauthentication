@@ -1,0 +1,8 @@
+[%autowidth.stretch, cols="h,a"]
+|===
+|Base package
+|`com.dzone.demo.userauthentication.userregistration`
+|Bean references
+|* `c.d.d.u.l.LoginService` (in Login)
+* `c.d.d.u.c.validator.EmailValidator` (in Common)
+|===

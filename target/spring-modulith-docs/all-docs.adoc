@@ -1,0 +1,19 @@
+== UserauthenticationApplication
+plantuml::components.puml[]
+
+== Common
+plantuml::module-common.puml[]
+include::module-common.adoc[]
+
+== Login
+plantuml::module-login.puml[]
+include::module-login.adoc[]
+
+== Userregistration
+plantuml::module-userregistration.puml[]
+include::module-userregistration.adoc[]
+
+== Notification
+plantuml::module-notification.puml[]
+include::module-notification.adoc[]
+

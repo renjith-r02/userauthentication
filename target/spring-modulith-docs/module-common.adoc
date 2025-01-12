@@ -1,0 +1,7 @@
+[%autowidth.stretch, cols="h,a"]
+|===
+|Base package
+|`com.dzone.demo.userauthentication.common`
+|Spring components
+|* `c.d.d.u.c.validator.EmailValidator`
+|===

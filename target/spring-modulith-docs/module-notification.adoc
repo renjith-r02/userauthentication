@@ -1,0 +1,11 @@
+[%autowidth.stretch, cols="h,a"]
+|===
+|Base package
+|`com.dzone.demo.userauthentication.notification`
+|Spring components
+|_Services_
+
+* `c.d.d.u.n.domain.NotificationService` listening to `c.d.d.u.c.events.UserRegisteredEvent`
+|Events listened to
+|* `c.d.d.u.c.events.UserRegisteredEvent`
+|===
